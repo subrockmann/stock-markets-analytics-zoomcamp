@@ -38,7 +38,7 @@ Download on Yahoo Finance two daily index prices for S&P 500 (^GSPC, https://fin
 **Find the largest range ratio [=(max-min)/max] of Adj.Close prices in 2023**
 
 
-Download the 2023 daily OHLCV data on Yahoo Finance for top5 stocks on earnings (https://companiesmarketcap.com/most-profitable-companies/): 2222.SR,BRK-B, AAPL, MSFT, GOOG, JPM.
+Download the 2023 daily OHLCV data on Yahoo Finance for top6 stocks on earnings (https://companiesmarketcap.com/most-profitable-companies/): 2222.SR,BRK-B, AAPL, MSFT, GOOG, JPM.
 
 Here is the example data you should see in Pandas for "2222.SR": https://finance.yahoo.com/quote/2222.SR/history
 
@@ -56,7 +56,7 @@ You can use `get_actions()` method or `.dividends` field in yfinance library (ht
 
 Sum up all dividends paid in 2023 per company and divide each value by the closing price (Adj.Close) at the last trading day of the year.
 
-Find the maximm value in % and round to 1 digit after the decimal point. (E.g., if you obtained $1.25 dividends paid and the end year stock price is $100, the dividend yield is 1.25% -- and your answer should be equal to 1.3)
+Find the maximum value in % and round to 1 digit after the decimal point. (E.g., if you obtained $1.25 dividends paid and the end year stock price is $100, the dividend yield is 1.25% -- and your answer should be equal to 1.3)
 
 ---
 ### Question 6. [Exploratory] Investigate new metrics
